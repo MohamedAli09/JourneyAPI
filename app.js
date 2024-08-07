@@ -20,7 +20,7 @@ const app = express();
 app.use(helmet());
 
 // Use CORS middleware
-app.use(cors());
+
 
 // Development logging
 if (process.env.NODE_ENV === 'development') {
@@ -64,6 +64,8 @@ app.use((req, res, next) => {
   // console.log(req.headers);
   next();
 });
+
+app.use(cors());
 
 // 3) ROUTES
 app.use('/api/v1/tours', tourRouter);
