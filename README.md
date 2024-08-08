@@ -66,7 +66,7 @@ after-section-11/
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/Journey-api.git
-    cd Journey-api/after-section-11
+    cd Journey-api
     ```
 
 2. Install the dependencies:
