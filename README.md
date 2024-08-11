@@ -7,6 +7,11 @@
 
 This API is designed for managing tour operations, including user authentication, booking reviews, and tour management. It's built with Node.js, Express, and MongoDB, providing a robust and scalable solution for tour-based applications.
 
+## Live Preview
+
+You can view the live API in action at [this link](http://hakuna-matata.balloapi.online/).
+
+
 ## Features
 
 - **User Authentication**: Secure user registration and login using JWT.
